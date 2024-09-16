@@ -11,9 +11,11 @@ export default {
       },
       colors: {
         'eerie-black': '#1B1B1B',
+        'yellow-gradient':'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%)',
+        'yellow-gradient':'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
       },
       boxShadow: {
         'custom-soft': '-4px 8px 24px hsla(0, 0%, 0%, 0.125)',
