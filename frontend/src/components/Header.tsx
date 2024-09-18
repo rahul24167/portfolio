@@ -4,12 +4,11 @@ interface HeaderProps {
   
 export  const Header=({title}: HeaderProps)=>{
     return (
-        <div>
-        <div className=" mb-5 pb-5 font-bold text-[#fafafa] text-3xl">
+        <div className="mb-5">
+        <div className=" mb-0 pb-5 font-bold text-[#fafafa] text-4xl">
             {title}
-
         </div>
-        <div className="h-[5px] w-10 bg-yellow-gradient bottom-0 left-0 rounded"></div>
+        <div className="h-[6px] w-11 bg-yellow-gradient bottom-0 left-0 rounded"></div>
         </div>
         
     );
