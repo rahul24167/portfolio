@@ -1,5 +1,6 @@
 import myAvatar from '../assets/my-images/my-avatar.png'
 import {Info} from './Info'
+
 export const Intro= ()=>{
     return <div className=" flex flex-col justify-center items-center border-[1px] border-solid border-[#3d3d3d] w-[275px] max-h-max h-full mb-0 pb-12 pt-14 z-1  bg-eerie-black rounded-3xl sticky">
 
