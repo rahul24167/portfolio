@@ -11,6 +11,7 @@ export const MainContent= ()=>{
         <BrowserRouter>
         <Navbar/>
         <Routes>
+            <Route index element={<Projects />} />
             <Route path="/projects" element= {<Projects/>}/>
             <Route path="/resume" element= {<Resume/>}/>
             <Route path="/about" element= {<About/>}/>

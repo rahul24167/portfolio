@@ -5,8 +5,6 @@ import { IntroFooter } from './IntroFooter'
 export const Intro= ()=>{
     return <div className=" flex flex-col justify-center items-center border-[1px] border-solid border-[#3d3d3d] w-[275px] max-h-max h-full mb-0 pb-12 pt-14 z-1  bg-eerie-black rounded-3xl sticky">
         <Profile />
-
-
         <div className='flex flex-col justify-center items-center w-[213px] h-[368px] bg-inherit' >
             <div className='bg-[#3f3f40] w-full h-px mt-[30px] py-px'></div>
             <div className='w-full h-[282]'>
@@ -56,7 +54,6 @@ export const Intro= ()=>{
                 </svg>
                 </Info>
             </div>
-
             <IntroFooter />
         </div>
     </div>

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Github } from 'lucide-react'
+import { SiGithub} from 'react-icons/si'
 
 interface Project {
   id: number
@@ -65,7 +65,7 @@ export const ProjectCard = ()=> {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-white text-black rounded-md px-4 py-2 text-sm font-medium hover:bg-gray-200 transition-colors duration-300"
                 >
-                  <Github className="w-4 h-4 mr-2" />
+                  <SiGithub className="w-4 h-4 mr-2"/>
                   Github
                 </a>
               </div>
